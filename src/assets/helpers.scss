@@ -1,0 +1,28 @@
+.stop-scrolling {
+  height: 100vh;
+  overflow: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.v-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+*[class^="v-col"] {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.v-row {
+  margin-top: 0;
+  margin-bottom: 0;
+}

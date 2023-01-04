@@ -1,0 +1,14 @@
+@mixin app-input() {
+  line-height: 34px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 12px;
+  padding-right: 34px;
+  border-radius: 5px;
+  border: 1px solid $black;
+  outline: none
+}
+
+.app-input {
+  @include app-input();
+}
